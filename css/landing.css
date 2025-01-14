@@ -1,0 +1,144 @@
+
+.main{ background-color: #FFF0ED;
+
+}
+footer{ background-color: #FFF0ED;
+text-align: center;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding:20px 0;
+}
+
+.product-section{ background-color: #F7F7F7;
+        text-align: center;
+        padding: 30px 0;
+
+}
+
+.discount{ background-color: #393939;
+  color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+    width: 80%;
+    margin: 40px auto;
+    box-sizing: content-box;
+}
+
+.discount section{ margin: auto;}
+
+.product_card{background-color:white;
+border-radius: 8px;
+padding:80px;
+text-align: center;
+box-shadow: 0 4px 6px lightgray;
+width: 250px;
+height: 350px;
+transition: transform 0.3s ease;
+}
+
+
+.button{ display: inline-block;
+  padding: 15px 30px;
+  background-color: #5BACC3;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+
+}
+.discount-code{ font-weight: bold;}
+
+.header{font-family: 'Open Sans';
+font-weight: lighter;}
+
+.header-text{ font-size: 1rem;
+  font-weight: 500;
+}
+
+
+.header-container {
+  position: relative;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 50px 20px;
+  background-color: #FFF0ED; 
+}
+.header-text-container {
+  width: 50%; 
+  padding-right: 20px;
+  flex-wrap: wrap;
+  margin-left: 80px;
+  text-wrap: wrap;
+  word-wrap: break-word;
+  width: 25%;  
+  line-height: 1.6;
+}
+
+
+.header-image {
+  max-width: 30%; 
+  height: auto; 
+  margin-left: 10px;
+  margin-right: 80px; 
+  display: block;
+}
+
+.product_card img {
+  max-width: 100%;
+  height: same-as-width;
+flex-shrink: 0;
+}
+
+  .product-container {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    flex-wrap: wrap;}
+
+    footer {
+      background-color: #FFF0ED;
+      text-align: left; 
+      font-size: 0.8rem;
+      font-weight: 400;
+      padding: 20px 0;
+      display: flex; 
+      justify-content: space-between;
+      align-items: center; 
+      flex-wrap: wrap; 
+      padding: 20px 200px; 
+  }
+  
+  footer h3,
+  footer p {
+      margin: 0 10px;}
+  
+  footer .contact {
+      margin-left: 10px; }
+  
+  footer a {
+      margin: 0 5px; 
+  }
+  
+  footer .facebook, footer .yelp, footer .instagram {
+      display: inline-block; 
+  }
+
+  h2{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: lighter;
+    word-wrap: break-word;
+  }
+
+  h3{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-align: center;
+    word-wrap: break-word;
+    font-weight: lighter;
+  }
+
+  h1{ font-weight: lighter;}
