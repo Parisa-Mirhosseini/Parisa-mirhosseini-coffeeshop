@@ -1,13 +1,11 @@
 
 li{ list-style-type: none;
-    display: inline-block;
-    margin: 10px 0;
-    padding: 0 10px;
     border-left: 4px solid #5BACC3 ;
     text-align: center;
 }
 .product{ background-color: #FFF0ED;
         text-align: center;
+        padding: 40px 40px;
 
 }
 
@@ -15,22 +13,22 @@ h2.product-pastries{
     background-color:  #FFF0ED; 
     padding: 10px;
     text-align: center;
- 
   }
 
-.coffee {
 
+    .menu-container{background-image: url("../assets/images/coffee-circle.jpg");
     width: 100%;
-    height: 700px;
+    height: 43.75rem;
     background-position: center;
     background-size: cover;
-    display: block;}
-
+    }
 
     section > ul {
-        background-color: black;
+        background-color: #393939;
+        width: 100%;
+        height:80px;
         color: white;
-        padding: 10px;
+        padding: 20px;
         text-align: center;
         
       }
@@ -46,9 +44,8 @@ h2.product-pastries{
 
       section > ul li {
         display: inline-block;
-        margin: 0 40px;
-        word-wrap: break-word;
-        text-align: center;
+        padding: 12px;
+        margin: 0px 20px;
     }
 
     p {
@@ -58,7 +55,7 @@ h2.product-pastries{
         word-wrap: break-word; 
       }
 
-      h1.Menu {
+      h1.menu {
         background-color: #393939;
         color: white;
         text-align: center;
@@ -66,7 +63,8 @@ h2.product-pastries{
         width: 200px; 
         height: 150px; 
         line-height: 150px; 
-        margin: 0 auto;}
+        margin: 0 auto;
+      }
 
         .product-cold {
             background-color: #F7F7F7; 

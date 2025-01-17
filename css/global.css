@@ -9,24 +9,27 @@
   font-weight: lighter;
   font-family:'open sans';
   text-decoration: none;
+  margin: 1rem 0rem;
 }
 
 nav a{ text-decoration: none;
   color: #393939;
-  font-size: 0.8rem;
+  font-size: 21px;
   font-weight: 400;
-  margin: 0 10px;
+  margin: 0 0.5rem;
+  align-content: center;
+  padding: 0.5rem 0.5rem;
 }
 
-nav{background-color: #FFF0ED;}
+nav{
+background-color: #FFF0ED;
+height: 100px;
+}
+
 .shop-now { color: #5BACC3;}
 
-
-.logo__image{ width: 1.75rem;
-  height: 1.75rem;
-  background-position: center;
-  background-size: cover;
-  margin: 0 0;
+.logo__image{ width: 50px;
+  margin: 0.5rem 0.5rem;
 }
 
 body{
