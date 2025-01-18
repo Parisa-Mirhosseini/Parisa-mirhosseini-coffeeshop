@@ -1,0 +1,185 @@
+@use './partials/global' as *;
+
+.header {
+  font-family: 'Open Sans';
+  font-weight: lighter;
+}
+
+.header-text {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.header-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #FFF0ED;
+}
+
+.header-text-container {
+  padding-right: 20px;
+  flex-wrap: wrap;
+  margin-left: 80px;
+  text-wrap: wrap;
+  word-wrap: break-word;
+  width: 25%;
+  line-height: 1.6;
+}
+
+.header-image {
+  max-width: 30%;
+  height: auto;
+  margin-right: 9rem;
+  display: block;
+}
+
+.product-section { display: flex;
+  justify-content: space-between;
+  background-color: #F7F7F7;
+}
+
+.product-info {
+  background-color: #FFF0ED;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.product-card {
+  background-color: white;
+  padding: 100px;
+  text-align: center;
+  box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 25);
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.product-img {
+  width: 100%;
+}
+
+div.product-info {
+  background-color: #FFF0ED;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.product-container {
+  display: flex;
+  gap: 20px;
+  width: 330px;
+  height: 440px;
+  margin: 20px;
+}
+
+.product-price {
+  background-color: #FFF0ED;
+  text-align: center;
+}
+
+.button {
+  position:relative;
+  display: inline-block;
+  width: 180px;
+  padding: 20px;
+  background-color: #5BACC3;
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+  border: 2px solid transparent;
+  border-style: solid;
+  text-align: center;
+  overflow: hidden;
+}
+.button::before{position: absolute;
+  top: -4px;
+  left: -4px; 
+  bottom: -4px; 
+  right: -4px;
+  border: solid #393939;
+}
+
+.discountsection {
+  background-color: #FFF;
+  margin: auto;
+}
+
+.discount {
+  background-color: #393939;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 45px;
+  font-weight: 400;
+  width: 90%;
+  margin: 40px auto;
+  box-sizing: content-box;
+}
+
+.discount-code {
+  font-weight: bold;
+}
+
+h2.product-section {
+  font-size: 3.75rem;
+  margin-bottom: 10px;
+  font-weight: 300;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3.75rem;
+  margin-bottom: 10px;
+  font-weight: 300;
+
+}
+
+h1 {
+  font-size: 3.75rem;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 2.0625rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.about .about-image {
+  width: 50px;
+  height: auto;
+  margin: 20px;
+}
+
+.tiltedcan {
+  background-image: url(../assets/images/coldbrewbackground.png);
+  background-size: cover;
+  width: 400px;
+  padding: 100px;
+  margin: 20px;
+  border-width: 5px;
+  Border-style: solid;
+  border-color: #5BACC3;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  top: 15px;
+  left: 15px;
+}
+
+footer .facebook,
+footer .yelp,
+footer .instagram {
+  display: inline-block;
+}
+
+footer {
+  background-color: #FFF0ED;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 200px;
+}

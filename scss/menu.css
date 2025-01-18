@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-size: 60px;
+  font-weight: 300;
+  font-family: "open sans";
+  text-decoration: none;
+  margin: 1rem 0rem;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #393939;
+  align-content: center;
+}
+
+.main-tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 21px;
+  font-weight: 400;
+  margin: 0 1.25rem;
+  width: 24%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #FFF0ED;
+  width: 100%;
+}
+
+nav .logo__image {
+  width: 50px;
+  height: auto;
+}
+
+.shop-now {
+  color: #5BACC3;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.product_price {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #5BACC3;
+}
+
+li {
+  list-style-type: none;
+  border-left: 4px solid #5BACC3;
+  text-align: center;
+}
+
+.product {
+  background-color: #FFF0ED;
+  text-align: center;
+  padding: 40px 40px;
+}
+
+h2.product-pastries {
+  background-color: #FFF0ED;
+  padding: 10px;
+  text-align: center;
+}
+
+.menu-container {
+  background-image: url("../assets/images/coffee-circle.jpg");
+  width: 100%;
+  height: 43.75rem;
+  background-position: center;
+  background-size: cover;
+}
+
+section > ul {
+  background-color: #393939;
+  width: 100%;
+  height: 80px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h2.product-hot, h2.product-cold, h2.product-pastries {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: lighter;
+  word-wrap: break-word;
+}
+
+section > ul li {
+  display: inline-block;
+  padding: 12px;
+  margin: 0px 20px;
+}
+
+p {
+  width: 40%;
+  margin: 0 auto;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+h1.menu {
+  background-color: #393939;
+  color: white;
+  text-align: center;
+  padding: 2 10px;
+  width: 200px;
+  height: 150px;
+  line-height: 150px;
+  margin: 0 auto;
+}
+
+.product-cold {
+  background-color: #F7F7F7;
+  padding: 10px;
+  text-align: center;
+}/*# sourceMappingURL=menu.css.map */

@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-size: 60px;
+  font-weight: 300;
+  font-family: "open sans";
+  text-decoration: none;
+  margin: 1rem 0rem;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #393939;
+  align-content: center;
+}
+
+.main-tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 21px;
+  font-weight: 400;
+  margin: 0 1.25rem;
+  width: 24%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #FFF0ED;
+  width: 100%;
+}
+
+nav .logo__image {
+  width: 50px;
+  height: auto;
+}
+
+.shop-now {
+  color: #5BACC3;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.product_price {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #5BACC3;
+}
+.product{ width: 80%;
+
+
+}
+.header {
+  font-family: "Open Sans";
+  font-weight: lighter;
+}
+
+.header-text {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.header-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #FFF0ED;
+}
+
+.header-text-container {
+  padding-right: 20px;
+  flex-wrap: wrap;
+  margin-left: 80px;
+  text-wrap: wrap;
+  word-wrap: break-word;
+  width: 25%;
+  line-height: 1.6;
+}
+
+.header-image {
+  max-width: 30%;
+  height: auto;
+  margin-right: 9rem;
+  display: block;
+}
+
+.product-section {
+  display: flex;
+  justify-content:space-around;
+  background-color: #F7F7F7;
+}
+
+.product-info {
+  background-color: #FFF0ED;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.product-card {
+  background-color: white;
+  padding: 100px;
+  text-align: center;
+  box-shadow: 0 5px 9px -1px rgb(0, 0, 0);
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.product-img {
+  width: 100%;
+}
+
+div.product-info {
+  background-color: #FFF0ED;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.product-container {
+  display: flex;
+  gap: 20px;
+  width: 330px;
+  height: 440px;
+  margin: 20px;
+}
+
+.product-price {
+  background-color: #FFF0ED;
+  text-align: center;
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  width: 180px;
+  padding: 20px;
+  background-color: #5BACC3;
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+  border: 2px solid transparent;
+  border-style: solid;
+  text-align: center;
+  overflow: hidden;
+}
+
+.button::before {
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  bottom: -4px;
+  right: -4px;
+  border: solid #393939;
+  transform: scale(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.discountsection {
+  background-color: #FFF;
+  justify-content: center;
+}
+
+.discount {
+  background-color: #393939;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 45px;
+  font-weight: 400;
+  width: 90%;
+  margin: 12.5rem 5rem;
+  margin-bottom: 12.5rem;
+  box-sizing: content-box;
+}
+
+.discount-code {
+  font-weight: bold;
+}
+
+h2.product-section {
+  font-size: 3.75rem;
+  margin-bottom: 10px;
+  font-weight: 300;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3.75rem;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 3.75rem;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 2.0625rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.about-image {
+  width: 50px;
+  margin-top: 2rem;
+  margin-right: 5.5rem;
+}
+
+.about-section {
+  width: 35%;
+  height: 50px;
+  padding: 100px;
+  padding: 60px 0 0;
+
+}
+
+.about {
+  display: flex;
+  margin: 100px;
+  justify-content: space-around;
+}
+
+
+.can {
+  width: 400px;
+  height: 400px;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+.can--rotate {
+  transition: 3s;
+}
+
+.can-outer {
+  border: 5px solid #5BACC3;
+  display: flex;
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.can-inner {
+  background-image: url(../assets/images/coldbrewbackground.png);
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  top: 20px;
+  left: 20px;
+}
+
+
+footer .facebook,
+footer .yelp,
+footer .instagram {
+  display: inline-block;
+}
+.float-right{ width: 6rem;
+  height: 6rem;
+  float: right;
+}
+
+.float-right{ width: 3.125rem;
+  float: left;
+}
+
+footer {
+  background-color: #FFF0ED;
+  display: flex;
+  justify-content: space-between;
+  padding: 6.25rem 12.5rem;
+}
+
+/*# sourceMappingURL=landing.css.map */
