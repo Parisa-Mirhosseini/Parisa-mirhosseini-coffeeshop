@@ -1,0 +1,8 @@
+@keyframes change-color {
+    50% {
+      background-color: blue($color: #5BACC3);
+    }
+  
+    50% {
+      background-color: black;
+    }

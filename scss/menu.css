@@ -85,6 +85,7 @@ h2.product-pastries {
   height: 43.75rem;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 
 section > ul {
@@ -118,14 +119,24 @@ p {
 }
 
 h1.menu {
+font-family: 'open sans';
+font-weight: 300;
+font-size: 3.75rem;
+  width: 18.75rem;
+  height: 200px;
   background-color: #393939;
+  padding: 1.25rem;
+  position: absolute;
+  border: .3125rem solid #5BACC3;
   color: white;
   text-align: center;
-  padding: 2 10px;
-  width: 200px;
-  height: 150px;
-  line-height: 150px;
+  top: 50%;
+  left: 50%;
+  bottom: 50%;
+  right: 50%;
   margin: 0 auto;
+  box-sizing: border-box;
+  transform: translate(-50%, -50%);
 }
 
 .product-cold {
