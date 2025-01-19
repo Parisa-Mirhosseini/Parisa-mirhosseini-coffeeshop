@@ -60,9 +60,10 @@ body {
   font-weight: 500;
   color: #5BACC3;
 }
-.product{ width: 80%;
+.product{ width:100%;
 
-
+display: flex;
+justify-content:center;
 }
 .header {
   font-family: "Open Sans";
@@ -141,6 +142,7 @@ div.product-info {
 
 .product-container {
   display: flex;
+  justify-content: center;
   gap: 20px;
   width: 330px;
   height: 440px;
