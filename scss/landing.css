@@ -99,7 +99,11 @@ body {
   margin-right: 9rem;
   display: block;
 }
-
+.product-head h2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 .product-section {
   display: flex;
   justify-content:space-around;
@@ -113,8 +117,10 @@ body {
 }
 
 .product-card {
+  width: 20.625rem;
+  height: 27.5rem;
   background-color: white;
-  padding: 100px;
+  padding: 20px;
   text-align: center;
   box-shadow: 0 5px 9px -1px rgb(0, 0, 0);
   border-radius: 10px;
