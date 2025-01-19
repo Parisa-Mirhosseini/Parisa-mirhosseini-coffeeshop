@@ -86,8 +86,50 @@ h2.product-pastries {
   background-position: center;
   background-size: cover;
   position: relative;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.menu-outer{ background-color: #393939;
+  display: flex;
+  width: 18.75rem;
+  height: 200px;
+  margin: 20px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
 }
 
+.menu-inner{ 
+  
+  width: 18.75rem;
+  height: 200px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  top: 20px;
+  left: 20px;
+
+}
+h1.menu {
+  border: 5px solid #5BACC3;
+  font-family: 'open sans';
+  font-weight: 300;
+  font-size: 3.75rem;
+    width: 18.75rem;
+    height: 200px;
+    padding: 3rem;
+    position: absolute;
+   margin: 1.25rem;
+    color: white;
+    text-align: center;
+    top: 30%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+  }
 section > ul {
   background-color: #393939;
   width: 100%;
@@ -118,26 +160,7 @@ p {
   word-wrap: break-word;
 }
 
-h1.menu {
-font-family: 'open sans';
-font-weight: 300;
-font-size: 3.75rem;
-  width: 18.75rem;
-  height: 200px;
-  background-color: #393939;
-  padding: 1.25rem;
-  position: absolute;
-  border: .3125rem solid #5BACC3;
-  color: white;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  bottom: 50%;
-  right: 50%;
-  margin: 0 auto;
-  box-sizing: border-box;
-  transform: translate(-50%, -50%);
-}
+
 
 .product-cold {
   background-color: #F7F7F7;
