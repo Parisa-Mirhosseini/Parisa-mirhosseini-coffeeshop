@@ -201,13 +201,15 @@ div.product-info {
   top: 20px;
   left: 20px;
 }
-section.button-viewall{ display: flex;
+.button-viewall{ 
+  width: 100%;
+  height: 8rem;
+  display: flex;
   justify-content: center;
   margin-top: 0;
   background-color: #F7F7F7;
   background-size: cover;
   width: 100%;
-  height: fit-content;
 }
 .button:active::before {
   transform: scaleX(1);
