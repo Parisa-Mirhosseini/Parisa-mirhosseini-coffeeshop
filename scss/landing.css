@@ -98,8 +98,8 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 3.125rem 0;
-  padding-bottom: 3.125rem;
+  padding: 3.125rem 0 0;
+
 }
 
 .product-container {
@@ -161,41 +161,60 @@ div.product-info {
 }
 
 
-.button {
+.button {border: solid #393939;
   position: relative;
-  display: inline-block;
+  display: flex;
   width: 180px;
+  height: 4.2rem;
   padding: 20px;
-  background-color: #5BACC3;
   color: white;
   text-decoration: none;
-  margin-top: 20px;
-  border: 2px solid #393939;
+  justify-content: center;
   text-align: center;
-  overflow: hidden;
   transition: 0.5s;
- 
+  right: 3%;
+  top: -42%;
+  margin-top: 1.25rem;
+}
+
+.button-outer{
+  background-color: #5BACC3;
+  border: solid transparent;
+  width: 11.25rem;
+  height: 4.2rem;
+  display: flex;
+  position: absolute;
+  margin-top: 1.25rem;
+  
 }
 
 
 .button::before {
-  position: absolute;
+  
   display: flex;
   justify-content: center;
   align-items: center;
   border: solid #393939;
   transform: scale(0);
-  transition: border transform 0.4s ease-in-out;
+  transition: botransform 0.4s ease-in-out;
   z-index: -1;
   top: 20px;
   left: 20px;
 }
-
+section.button-viewall{ display: flex;
+  justify-content: center;
+  margin-top: 0;
+  background-color: #F7F7F7;
+  background-size: cover;
+  width: 100%;
+  height: fit-content;
+}
 .button:active::before {
   transform: scaleX(1);
   transform-origin: top left;}
 
 .discountsection {
+  display: flex;
   background-color: #FFF;
   justify-content: center;
 }
